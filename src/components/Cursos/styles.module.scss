@@ -1,0 +1,60 @@
+.container {
+  grid-column: 3/3;
+  grid-row: 2/2;
+  background: var(--box);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+
+  section {
+    overflow-y: scroll;
+    display: flex;
+    height: 16rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0.6rem;
+
+    &::-webkit-scrollbar {
+      width: 0.6rem;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: var(--scroll);
+      border-radius: 20px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 20px;
+    }
+  }
+}
+
+.content {
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 1.2rem;
+  border: solid 1px var(--border);
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--title);
+    text-align: center;
+    margin-bottom: 0.4rem;
+  }
+
+  p {
+    text-align: center;
+  }
+}

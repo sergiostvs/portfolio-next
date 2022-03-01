@@ -1,0 +1,15 @@
+.container {
+  grid-row: 1/4;
+  min-width: 23rem;
+  background: var(--box);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  
+  section {
+    width: 100%;
+    height: 0.08rem;
+    background: var(--border);
+    margin: 0.6rem 0;
+  }
+}
+

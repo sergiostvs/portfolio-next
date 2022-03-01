@@ -1,0 +1,40 @@
+.container {
+  grid-column: 2/2;
+
+  grid-row: 2/2;
+  background: var(--box);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+
+  @media (max-width: 800px) {
+    margin: 1rem 0;
+  }
+}
+
+.section {
+  overflow-y: scroll;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 16rem;
+
+  &::-webkit-scrollbar {
+    width: 0.6rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--scroll);
+    border-radius: 20px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--border);
+    border-radius: 20px;
+  }
+}
+
+.h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

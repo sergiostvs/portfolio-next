@@ -1,0 +1,19 @@
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+
+  .link {
+    margin: 0 0.5rem;
+    transition: 0.3s;
+
+    .img {
+      width: 1.5rem;
+    }
+    
+    &:hover {
+      transform: translateY(-8px);
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.progress {
+  height: 2.4rem;
+  background-color: var(--skill);
+  position: relative;
+  border-radius: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.img {
+  width: 1.7rem;
+  position: absolute;
+  top: 0.3rem;
+  left: 0.5rem;
+  z-index: 1000;
+}
+
+.h3 {
+  position: absolute;
+  z-index: 1000;
+  top: 0.4rem;
+  left: 2.8rem;
+  font-size: 1rem;
+}
+
+.progressJavascript {
+  position: absolute;
+  height: 100%;
+  background-color: var(--js);
+  border-radius: 0.7rem;
+  animation: progress-animation-js 2s both;
+
+  @keyframes progress-animation-js {
+    from {
+      width: 0%;
+    }
+
+    to {
+      width: 75%;
+    }
+  }
+}
