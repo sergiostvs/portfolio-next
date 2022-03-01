@@ -23,7 +23,7 @@ export function Git() {
 
   return (
     <div className={styles.container}>
-      <h3 className="styles.h3">{t.repositorios}</h3>
+      <h3 className={styles.h3}>{t.repositorios}</h3>
       <section className={styles.section}>
         {repositories.map((repository) => {
           return (

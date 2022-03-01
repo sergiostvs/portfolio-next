@@ -13,9 +13,20 @@ export default function Portfolio() {
 
   return (
     <div className={styles.container}>
-      <Link href="/" passHref>
-        <button className={styles.back}>{t.voltar}</button>
-      </Link>
+      <button
+        className={styles.back}
+        onClick={() =>
+          router.push(
+            {
+              pathname: "/",
+            },
+            undefined,
+            { scroll: false }
+          )
+        }
+      >
+        {t.voltar}
+      </button>
       <h2>Portfolio</h2>
       <p>{t.portfolio1}</p>
     </div>

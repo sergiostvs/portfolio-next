@@ -15,12 +15,34 @@ export default function Projetos() {
     <div className={styles.container}>
       <h3>{t.projetos}</h3>
       <nav className={styles.menu}>
-        <Link href="/portfolio" passHref prefetch>
-          <div className={styles.link}>Portfolio</div>
-        </Link>
-        <Link href="/dtmoney" passHref prefetch>
-          <div className={styles.link}>DT Money</div>
-        </Link>
+        <button
+          className={styles.link}
+          onClick={() =>
+            router.push(
+              {
+                pathname: "/portfolio",
+              },
+              undefined,
+              { scroll: false }
+            )
+          }
+        >
+          Portfolio
+        </button>
+        <button
+          className={styles.link}
+          onClick={() =>
+            router.push(
+              {
+                pathname: "/dtmoney",
+              },
+              undefined,
+              { scroll: false }
+            )
+          }
+        >
+          DT Money
+        </button>
       </nav>
     </div>
   );

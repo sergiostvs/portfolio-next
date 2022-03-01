@@ -16,9 +16,20 @@ export default function Dtmoney() {
 
   return (
     <div className={styles.container}>
-      <Link href="/" passHref>
-        <button className={styles.back}>{t.voltar}</button>
-      </Link>
+      <button
+        className={styles.back}
+        onClick={() =>
+          router.push(
+            {
+              pathname: "/",
+            },
+            undefined,
+            { scroll: false }
+          )
+        }
+      >
+        {t.voltar}
+      </button>
       <h1>DT Money</h1>
       <p>{t.dtmoney1}</p>
       <div>
