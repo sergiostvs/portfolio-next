@@ -15,10 +15,10 @@ export default function Projetos() {
     <div className={styles.container}>
       <h3>{t.projetos}</h3>
       <nav className={styles.menu}>
-        <Link href="/portfolio" prefetch>
+        <Link href="/portfolio" passHref prefetch>
           <div className={styles.link}>Portfolio</div>
         </Link>
-        <Link href="/dtmoney" prefetch>
+        <Link href="/dtmoney" passHref prefetch>
           <div className={styles.link}>DT Money</div>
         </Link>
       </nav>

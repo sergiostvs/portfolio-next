@@ -16,7 +16,7 @@ export default function Dtmoney() {
 
   return (
     <div className={styles.container}>
-      <Link href="/">
+      <Link href="/" passHref>
         <button className={styles.back}>{t.voltar}</button>
       </Link>
       <h1>DT Money</h1>

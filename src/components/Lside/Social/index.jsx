@@ -12,6 +12,7 @@ export function Social() {
         className={styles.link}
         target="_blank"
         href="https://www.linkedin.com/in/sergiostvs/"
+        rel="noreferrer"
       >
         <div className={styles.img}>
           <Image src={Linkedin} alt="Linkedin" />
@@ -21,6 +22,7 @@ export function Social() {
         className={styles.link}
         target="_blank"
         href="https://github.com/sergiostvs"
+        rel="noreferrer"
       >
         <div className={styles.img}>
           <Image src={GitHub} alt="Github" />
@@ -30,6 +32,7 @@ export function Social() {
         className={styles.link}
         target="_blank"
         href="mailto: sergiohme@gmail.com"
+        rel="noreferrer"
       >
         <div className={styles.img}>
           <Image src={Email} alt="Email" />

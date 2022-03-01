@@ -13,7 +13,7 @@ export default function Portfolio() {
 
   return (
     <div className={styles.container}>
-      <Link href="/">
+      <Link href="/" passHref>
         <button className={styles.back}>{t.voltar}</button>
       </Link>
       <h2>Portfolio</h2>
