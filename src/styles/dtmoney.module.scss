@@ -2,8 +2,30 @@
   background: var(--box);
   border-radius: 1.5rem;
   padding: 1.5rem;
-  min-height: 21rem;
+  max-height: 25rem;
   width: 100%;
+  overflow: hidden;
+  
+  .scroll{
+    max-height: 22rem;
+    overflow-y: scroll;
+    padding-right: 1rem;
+
+    &::-webkit-scrollbar {
+      width: 0.6rem;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: var(--scroll);
+      border-radius: 20px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 20px;
+    }
+  }
+
 
   .back{
     background: #3a3a41;
@@ -19,6 +41,11 @@
     &:hover{
       filter: opacity(80%);
     }
+  }
+
+  h2{
+    font-weight: 600;
+    font-size: 1.7rem;
   }
 
   p{

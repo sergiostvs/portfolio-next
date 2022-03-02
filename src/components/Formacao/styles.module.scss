@@ -1,5 +1,8 @@
 .container {
-  background: var(--box);
+  background-image: url(../../../public/images/gradient2.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   border-radius: 1.5rem;
   padding: 1.5rem;
 
@@ -7,31 +10,31 @@
     height: 11rem;
     margin-top: 1rem;
   }
-}
 
-.content {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border-radius: 1.2rem;
-  background: var(--skill);
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.6rem;
+  .content {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    background: #00000e80;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.6rem;
 
-  h2 {
-    font-weight: 600;
+    h2 {
+      font-weight: 600;
+    }
   }
-}
 
-.content2 {
-  padding: 1rem;
-  border-radius: 1.2rem;
-  background: var(--skill);
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.6rem;
+  .content2 {
+    padding: 1rem;
+    border-radius: 1.2rem;
+    background: #00000e80;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.6rem;
 
-  h2 {
-    font-weight: 600;
+    h2 {
+      font-weight: 600;
+    }
   }
 }
