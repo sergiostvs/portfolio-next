@@ -8,12 +8,17 @@
   border: solid 1px var(--border);
   font-size: 0.8rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
-  min-height: 6rem;
+  min-height: 10rem;
   width: 11rem;
 
   transition: all 0.2s;
+
+  @media(max-width: 1024px){
+    min-height: 6rem;
+    margin-right: 1rem;
+  }
 
   @media(max-width: 1024px){
     width: 100%;

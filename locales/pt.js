@@ -1,5 +1,6 @@
 export default {
   voltar: "Voltar",
+  link: "Acessar Projeto",
   formacao: "Formação:",
   curso: "Engenharia de Computação",
   repositorios: "Repositórios GitHub",
@@ -9,6 +10,10 @@ export default {
   curso3: "Curso Web Moderno Completo com JavaScript + Projetos",
   emissao: "Emissão:",
   cargah: "Carga Horária:",
+  burgers: "Cardápio Digital",
+  canoat: "Fazenda Canoa",
+  imob: "Portal Imobiliária",
+  imobi: "Website responsivo desenvolvido em React para venda de imóveis.",
   portfolio1: "Este portfolio foi desenvolvido com o intuito de mostrar minhas habilidade e trabalhos. Usei a ideia de desenvolver como uma interface que lembre um dashboard. Foi desenvolvido usando NextJS. Para estilização foi usado pré-processador SASS.",
   portfolio2: "Foi feito o consumo da API pública do GitHub no componente dos meus repositórios.",
   portfolio3: "Também utilizei a biblioteca de internacionalização i18n.",

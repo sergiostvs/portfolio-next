@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import pt from "../../locales/pt";
 import en from "../../locales/en";
 
-import dtmoney from "../../public/images/dtmoney.png";
+import canoa from "../../public/images/canoa.png";
 
 import styles from "../styles/projects.module.scss";
 import Image from "next/image";
@@ -30,10 +30,18 @@ export default function Dtmoney() {
         >
           {t.voltar}
         </button>
-        <h2>DT Money</h2>
-        <p>{t.dtmoney1}</p>
-        <div>
-          <Image src={dtmoney} />
+        <h2>{t.canoat}</h2>
+        <p>{t.canoa}</p>
+        <a
+          className={styles.link}
+          href="https://fazenda-canoa.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {t.link}
+        </a>
+        <div className={styles.img}>
+          <Image src={canoa} />
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import pt from "../../locales/pt";
 import en from "../../locales/en";
 
-import dtmoney from "../../public/images/dtmoney.png";
+import todo from "../../public/images/todo.png";
 
 import styles from "../styles/projects.module.scss";
 import Image from "next/image";
@@ -30,10 +30,18 @@ export default function Dtmoney() {
         >
           {t.voltar}
         </button>
-        <h2>DT Money</h2>
-        <p>{t.dtmoney1}</p>
-        <div>
-          <Image src={dtmoney} />
+        <h2>to.do</h2>
+        <p>{t.todo}</p>
+        <a
+          className={styles.link}
+          href="https://to-do-challenger.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {t.link}
+        </a>
+        <div className={styles.img}>
+          <Image src={todo} />
         </div>
       </div>
     </div>

@@ -4,6 +4,10 @@
   background: var(--box);
   border-radius: 1.5rem;
   padding: 1.5rem;
+
+  @media(max-width: 768px){
+    min-height: 100%;
+  }
   
   section {
     width: 100%;

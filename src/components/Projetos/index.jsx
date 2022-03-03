@@ -43,6 +43,76 @@ export default function Projetos() {
         >
           DT Money
         </button>
+        <button
+          className={styles.link}
+          onClick={() =>
+            router.push(
+              {
+                pathname: "/todo",
+              },
+              undefined,
+              { scroll: false }
+            )
+          }
+        >
+          to.do
+        </button>
+        <button
+          className={styles.link}
+          onClick={() =>
+            router.push(
+              {
+                pathname: "/fazenda-canoa",
+              },
+              undefined,
+              { scroll: false }
+            )
+          }
+        >
+          {t.canoat}
+        </button>
+        <button
+          className={styles.link}
+          onClick={() =>
+            router.push(
+              {
+                pathname: "/nitro-agency",
+              },
+              undefined,
+              { scroll: false }
+            )
+          }
+        >
+          Nitro Agency
+        </button>
+        <button
+          className={styles.link}
+          onClick={() =>
+            router.push(
+              {
+                pathname: "/imobiliaria",
+              },
+              undefined,
+              { scroll: false }
+            )
+          }
+        >
+          {t.imob}
+        </button>
+        <button
+          className={styles.link}
+          onClick={() =>
+            router.push(
+              {
+                pathname: "/cardapio-digital",
+              },
+              undefined,
+              { scroll: false }
+            )
+          }
+        >
+          {t.burgers}
+        </button>
       </nav>
     </div>
   );
