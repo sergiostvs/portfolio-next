@@ -7,6 +7,7 @@ import styles from "./styles.module.scss";
 import { Curso1 } from "./Curso1";
 import { Curso2 } from "./Curso2";
 import { Curso3 } from "./Curso3";
+import { Curso4 } from "./Curso4";
 
 export function Cursos() {
   const router = useRouter();
@@ -20,6 +21,7 @@ export function Cursos() {
         <Curso1/>
         <Curso2/>
         <Curso3/>
+        <Curso4/>
       </section>
     </div>
   );
