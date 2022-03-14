@@ -18,10 +18,10 @@ export function Cursos() {
     <div className={styles.container}>
       <h3>{t.cursos}</h3>
       <section>
+        <Curso4/>
         <Curso1/>
         <Curso2/>
         <Curso3/>
-        <Curso4/>
       </section>
     </div>
   );
