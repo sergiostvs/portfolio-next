@@ -22,4 +22,7 @@ export default {
   todo: "Aplicação web responsiva de atividades a fazer, desenvolvida em React.",
   canoa: "Aplicação web em React para reservas e status de reservas destinada a condomínios e loteamentos. Foi implementada a biblioteca de mapas Leaflet.",
   nitro: "Website responsivo desenvolvido em NextJS, com animações utilizando a plataforma LottieFiles.",
+  weather: "Aplicativo Meteorológico",
+  weatherDescription: "Aplicação em React consumindo dados da API OpenWeather, utilizando a localização do usuário ou outra localização no campo Pesquisar, mostra o clima atual e atividades recomendadas de acordo com as condições climáticas. Foi implementado tema dark/light com styled-components.",
+  pokedex: "Aplicação em React com styled-components consumindo dados da PokeAPI. Implementação de paginação, filtro de busca por tipo, barra de pesquisa, login e responsividade.",
 }; 

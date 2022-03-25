@@ -22,4 +22,7 @@ export default {
   todo: "To-do web application, developed in React",
   canoa: "React web application for reservations and reservation status for residential condominiums. The Leaflet map library has been implemented.",
   nitro: "Responsive website developed in NextJS, with animations using the LottieFiles platform.",
+  weather: "Weather App",
+  weatherDescription: "React application consuming OpenWeather API data, using user location or other location in Search field, shows current weather and recommended activities according to weather conditions. Implemented dark/light theme with styled-components.",
+  pokedex: "React application with styled-components consuming data from PokeAPI. Implementation of pagination, search filter by type, search bar, login and responsiveness.",
 };

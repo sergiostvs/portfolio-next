@@ -113,6 +113,34 @@ export default function Projetos() {
         >
           {t.burgers}
         </button>
+        <button
+          className={styles.link}
+          onClick={() =>
+            router.push(
+              {
+                pathname: "/weather-app",
+              },
+              undefined,
+              { scroll: false }
+            )
+          }
+        >
+          {t.weather}
+        </button>
+        <button
+          className={styles.link}
+          onClick={() =>
+            router.push(
+              {
+                pathname: "/pokedex",
+              },
+              undefined,
+              { scroll: false }
+            )
+          }
+        >
+          Pokedex
+        </button>
       </nav>
     </div>
   );
