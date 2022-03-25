@@ -141,6 +141,20 @@ export default function Projetos() {
         >
           Pokedex
         </button>
+        <button
+          className={styles.link}
+          onClick={() =>
+            router.push(
+              {
+                pathname: "/countries",
+              },
+              undefined,
+              { scroll: false }
+            )
+          }
+        >
+          {t.countries}
+        </button>
       </nav>
     </div>
   );

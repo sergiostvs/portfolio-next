@@ -25,4 +25,6 @@ export default {
   weather: "Weather App",
   weatherDescription: "React application consuming OpenWeather API data, using user location or other location in Search field, shows current weather and recommended activities according to weather conditions. Implemented dark/light theme with styled-components.",
   pokedex: "React application with styled-components consuming data from PokeAPI. Implementation of pagination, search filter by type, search bar, login and responsiveness.",
+  countries: "Countries App",
+  countriesDescription: "Application in React and styled-components consuming data from the Rest Countries API, with dark/light theme.",
 };
